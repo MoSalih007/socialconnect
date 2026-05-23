@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (PRIVATE — never commit!)
+.env
+.env.local
+.env.production
+server/.env
+client/.env
+client/.env.production
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Word temp files
+~$*
+
+# Cache
+.vite/
+
+# Generated doc parts (not needed in repo)
+guide_parts/
+report_parts/
+
+# Config files
+.gemini/
+
+# Sensitive notes & test data
+.env changes.txt
+server/Users.sql
+
+# Binary documents (keep in local, not in repo)
+*.docx
+*.pptx
+*.doc
+
+# Python generator scripts
+*.py
+
+# Diagram source files (only PNGs are needed)
+diagrams/*.dot
+diagrams/*.mmd
+diagrams/*.html
+diagrams/*.md
